@@ -20,6 +20,10 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< HEAD
+=======
+    flipGreenChannel: 0
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -33,7 +37,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 0
+=======
+    filterMode: 1
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +55,11 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 19
+=======
+  spritePixelsToUnits: 100
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,10 +75,15 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
+=======
+  swizzle: 50462976
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+<<<<<<< HEAD
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
@@ -91,6 +108,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
+=======
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -116,7 +135,10 @@ TextureImporter:
     nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
+<<<<<<< HEAD
   pSDShowRemoveMatteOption: 0
+=======
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   userData: 
   assetBundleName: 
   assetBundleVariant: 

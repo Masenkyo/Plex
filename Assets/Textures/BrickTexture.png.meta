@@ -20,6 +20,10 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< HEAD
+=======
+    flipGreenChannel: 0
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -44,7 +48,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
+<<<<<<< HEAD
   spriteMeshType: 0
+=======
+  spriteMeshType: 1
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 19
@@ -63,6 +71,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
+=======
+  swizzle: 50462976
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -88,6 +100,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -100,6 +113,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -116,7 +131,10 @@ TextureImporter:
     nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
+<<<<<<< HEAD
   pSDShowRemoveMatteOption: 0
+=======
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
   userData: 
   assetBundleName: 
   assetBundleVariant: 

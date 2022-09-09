@@ -31,10 +31,13 @@ public class Movement : MonoBehaviour
         {
             player.velocity = new Vector2(Speed, player.velocity.y);
         }
+<<<<<<< HEAD
         if (Input.GetKey(KeyCode.A) && (Input.GetKey(KeyCode.D)))
         {
             player.velocity = new Vector2(0, player.velocity.y);
         }
+=======
+>>>>>>> 26945dadd507b35093c15f2c5b9bc7fd19093d5d
         else if (player.velocity.x > 0)
         {
             player.velocity = new Vector2(player.velocity.x / ((10f * Time.deltaTime) + 1f), player.velocity.y);
