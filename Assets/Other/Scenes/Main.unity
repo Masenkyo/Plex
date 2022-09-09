@@ -564,9 +564,10 @@ GameObject:
   - component: {fileID: 406420104}
   - component: {fileID: 406420106}
   - component: {fileID: 406420105}
+  - component: {fileID: 406420107}
   m_Layer: 0
   m_Name: SmallPlatformTexture (2)
-  m_TagString: Untagged
+  m_TagString: BrPl
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -664,6 +665,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &406420107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406420103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d427bcc3f5912341bc6daabb9c8b112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BrokeTexture: {fileID: 21300000, guid: 1550f92b3b88628428421a9583b79077, type: 3}
+  Pieces: {fileID: 2946567420785280623, guid: c3aeeadbe1b556b46a886f8cf0f31f07, type: 3}
 --- !u!1 &474817075
 GameObject:
   m_ObjectHideFlags: 0
@@ -3366,9 +3381,10 @@ GameObject:
   - component: {fileID: 1679110428}
   - component: {fileID: 1679110430}
   - component: {fileID: 1679110429}
+  - component: {fileID: 1679110431}
   m_Layer: 0
   m_Name: SmallPlatformTexture (3)
-  m_TagString: Untagged
+  m_TagString: BrPl
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3466,6 +3482,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1679110431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679110427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d427bcc3f5912341bc6daabb9c8b112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BrokeTexture: {fileID: 21300000, guid: 1550f92b3b88628428421a9583b79077, type: 3}
+  Pieces: {fileID: 2946567420785280623, guid: c3aeeadbe1b556b46a886f8cf0f31f07, type: 3}
 --- !u!1 &1692045194
 GameObject:
   m_ObjectHideFlags: 0

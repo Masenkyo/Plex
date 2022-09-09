@@ -323,7 +323,7 @@ public class Controls : NetworkBehaviour
 
         IEnumerator bulletmovemnet(GameObject bullet, Vector3 direction)
         {
-            for (int i = 0; i < 200; i++)
+            for (; ; )
             {
                 foreach(GameObject c in GameObject.FindGameObjectsWithTag("player"))
                 {
@@ -332,6 +332,16 @@ public class Controls : NetworkBehaviour
                     if (Vector3.Distance(c.transform.position, bullet.transform.position) < 0.5f)
                     {
                         RpcSetHealth(c, c.GetComponent<Health>().HealthAmount - 10f, "none");
+
+                        Destroy(bullet);
+                        yield break;
+                    }
+                }
+                foreach (GameObject p in GameObject.FindGameObjectsWithTag("BrPl"))
+                {
+                    if (p.GetComponent<BoxCollider2D>().bounds.Contains(bullet.transform.position))
+                    {
+                        RpcSetPlatformHealth(p.transform.position, p.GetComponent<Break>().Damage - 50f);
 
                         Destroy(bullet);
                         yield break;
@@ -442,7 +452,16 @@ public class Controls : NetworkBehaviour
         }
     }
 
-
+    [ClientRpc] void RpcSetPlatformHealth(Vector3 target, float value)
+    {
+        foreach (Transform c in GameObject.Find("Map_C").transform)
+        {
+            if (c.position == target)
+            {
+                c.GetComponent<Break>().Damage = value;
+            }
+        }
+    }
 
 
 
