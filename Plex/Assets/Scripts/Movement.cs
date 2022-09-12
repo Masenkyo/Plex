@@ -31,6 +31,10 @@ public class Movement : MonoBehaviour
         {
             player.velocity = new Vector2(Speed, player.velocity.y);
         }
+        if (Input.GetKey(KeyCode.A) && (Input.GetKey(KeyCode.D)))
+        {
+            player.velocity = new Vector2(0, player.velocity.y);
+        }
         else if (player.velocity.x > 0)
         {
             player.velocity = new Vector2(player.velocity.x / ((10f * Time.deltaTime) + 1f), player.velocity.y);
@@ -46,11 +50,11 @@ public class Movement : MonoBehaviour
         }
         if (player.velocity.x < -0.1)
         {
-            transform.localScale = new Vector3(-2.5f, transform.localScale.y, 2.5f);
+            transform.localScale = new Vector3(-1f, transform.localScale.y, 1f);
         }
         if (player.velocity.x > 0.1)
         {
-            transform.localScale = new Vector3(2.5f, transform.localScale.y, 2.5f);
+            transform.localScale = new Vector3(1f, transform.localScale.y, 1f);
         }
     }
 }
